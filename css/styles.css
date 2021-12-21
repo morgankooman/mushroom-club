@@ -1,0 +1,239 @@
+html {
+    background-color: #2A611F;
+    font-family: "Mochiy Pop P One";
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #2A611F;
+    border-bottom: 2px solid #0A2608;
+}
+.logo {
+    margin-right: 5rem;
+    display: flex;
+    float: left;    
+}
+.logo-pic {
+    height: 80px;
+}
+.logo img {
+    border-radius: 40%;
+}
+
+nav li {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 10%;
+    border: 2px solid #4CAD38;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+   }
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.link:hover {
+    cursor: pointer;
+    color: orange;
+    border: 2px solid orange;
+    background-color: #173611;
+}
+.link:active {
+    font-size: 1.3rem;
+}
+.banner {
+    clear: left;
+    margin-top: 110px;
+    width: 100%;
+    background-image: url("https://gallowaywildfoods.com/wp-content/uploads/2020/06/Screenshot-2020-06-24-at-14.00.40-1024x1002.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.banner-text {
+    text-align: center;
+    color: seashell;
+    font-size: 5rem;
+    text-shadow: blue 2px 0 50px;
+}
+.banner p {
+    align-items: baseline;
+    align-content: flex-end;
+}
+
+.about {
+    margin-top: 100px;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 5rem;
+    width: 80%;
+}
+.about h2 {
+    font-weight: bold;
+}
+/* maybe add media query to make text justify on smaller screens and or take up 100% in stead of 80% */
+.events {
+    width: 90%;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+.events h2 {
+    text-align: center;
+    font-weight: bold;
+}
+.event {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 10%;
+}
+.event figure {
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+}
+.event img {
+    border-radius: 2%;
+    border: 2px solid #4CAD38;
+}
+figcaption {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.resize {
+    height: 100%;
+    width: 100%;
+}
+
+.mushrooms {
+    width: 90%;
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.mushrooms h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.mushroom-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 10%;
+}
+
+.mushroom-images figure {
+    height: 200px;
+    width: 300px;
+    margin: 4rem;
+}
+
+.mushroom-images img {
+    border-radius: 2%;
+    border: 2px solid #4CAD38;
+}
+
+footer {
+    background-color: #0A2608;
+    height: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.join-us {
+    margin-left: 5rem;
+    color: #4CAD38;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 20rem;
+}
+
+.facebook {
+    height: 60px;
+    width: 60px;
+    margin-left: 5rem;
+}
+
+.facebook img {
+    border-radius: 50%;
+}
+
+.newsletter {
+    color: #4CAD38;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+button {
+    padding: 5px;
+    border-radius: 10%;
+    border: 2px solid #4CAD38;
+}
+button:hover {
+    cursor: pointer;
+    color: orange;
+    border: 2px solid orange;
+    background-color: #173611;
+}
+
+#email {
+    width: 20rem;
+}
+
+@media  screen and (max-width: 900px) {
+    .logo {
+        margin-right: 0;
+    }
+    .nav-links {
+        justify-content: space-evenly;
+        margin-right: 1rem;
+    }
+    footer {
+        height: 20rem;
+    }    
+    .facebook {
+        margin-left: 2rem;
+    }
+    .join-us {
+        margin-right: 10rem;
+    }
+    .newsletter {
+        margin-left: 5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
